@@ -1,0 +1,27 @@
+Collecting setuptools
+  Using cached setuptools-62.3.2-py3-none-any.whl (1.2 MB)
+Collecting wheel
+  Using cached wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+Collecting scikit-build
+  Using cached scikit_build-0.15.0-py2.py3-none-any.whl (77 kB)
+Collecting cmake
+  Using cached cmake-3.22.4-py2.py3-none-win_amd64.whl (38.1 MB)
+Collecting pip
+  Using cached pip-22.1.1-py3-none-any.whl (2.1 MB)
+Collecting numpy==1.11.3
+  Using cached numpy-1.11.3.zip (4.7 MB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting python_version
+  Downloading python_version-0.0.2-py2.py3-none-any.whl (3.4 kB)
+Collecting packaging
+  Using cached packaging-21.3-py3-none-any.whl (40 kB)
+Collecting distro
+  Using cached distro-1.7.0-py3-none-any.whl (20 kB)
+Collecting pyparsing!=3.0.5,>=2.0.2
+  Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Using legacy 'setup.py install' for numpy, since package 'wheel' is not installed.
+Installing collected packages: python_version, numpy, cmake, wheel, setuptools, pyparsing, pip, distro, packaging, scikit-build
+  Running setup.py install for numpy: started
+  Running setup.py install for numpy: still running...
+  Running setup.py install for numpy: finished with status 'error'
