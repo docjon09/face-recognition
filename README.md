@@ -20,24 +20,19 @@ built with deep learning. The model has an accuracy of 99.38% on the
   * #do a pip install 
   * pip install -r requirements.txt
   * #modify the database in the settings.py which is this part
-  DATABASES = {
-    'default': {
-        'NAME': 'crime_identify',
-        'ENGINE': 'mysql.connector.django',
-        'USER': 'root',
-        'PASSWORD': 'moswa',
-        'OPTIONS': {
-          'autocommit': True,
-        },
-    }
-}
+ DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': 'crime_identify',
+     }
+ }
 
 * #create a database with the name of your choice
 * #import the sql crime_identify.sql in the root folder for the project you cloned
 * #you can also run a python migrate if you do not want the data populated in my database
   
 ## Checkout the video at
- * https://www.youtube.com/watch?v=dPHTOraUPDc&t=12s
+ * https://drive.google.com/file/d/1Xei86J2JDBrsTcEp4eLhu1_egLLqB1p4/view?usp=sharing
   
 
 
